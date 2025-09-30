@@ -16,6 +16,10 @@ app.get('/', (req, res) => {
   res.render('landing_page');
 });
 
+app.get('/sales-agent', (req, res) => {
+  res.render('sales_agent');
+});
+
 // Start server
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
