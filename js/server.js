@@ -27,7 +27,7 @@ app.get('/wablast', (req, res) => {
 
 //ai chatbot
 app.get('/ai-chatbot', (req, res) => {
-  res.render('ai_chatbot');
+  res.render('ai-chatbot');
 });
 // Start server
 const PORT = process.env.PORT || 8080;
