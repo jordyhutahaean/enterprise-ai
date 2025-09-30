@@ -20,6 +20,15 @@ app.get('/sales-agent', (req, res) => {
   res.render('sales_agent');
 });
 
+//wablast
+app.get('/wablast', (req, res) => {
+  res.render('wablast');
+});
+
+//ai chatbot
+app.get('/ai-chatbot', (req, res) => {
+  res.render('ai_chatbot');
+});
 // Start server
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
