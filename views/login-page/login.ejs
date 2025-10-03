@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Login | Topapp</title>
+  <link href="/css/bootstrap.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="/css/responsive.css" rel="stylesheet">
+ 
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="/images/favicon.png" type="x-icon">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="page-wrapper">
+ 
+  <section class="contact-section" style="padding-top:100px;">
+    <div class="auto-container">
+      <div class="row clearfix justify-content-center">
+        <div class="form-column col-lg-6 col-md-8 col-sm-12">
+          <div class="inner-column">
+            <div class="sec-title centered">
+              <div class="title"><span>Lo</span>gin</div>
+              <h2>Masuk ke Akun Anda</h2>
+            </div>
+            <div class="default-form">
+              <form method="post" action="/login">
+                <div class="form-group">
+                  <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                  <button class="theme-btn btn-style-one" type="submit"><span class="txt">Login</span></button>
+                </div>
+                <div class="form-group" style="text-align:right;">
+                  <a href="/forgot-password" style="font-size:13px;">Lupa Password?</a>
+                </div>
+                <div class="form-group" style="text-align:center;">
+                  <span style="font-size:13px;">Belum punya akun? <a href="/register">Daftar</a></span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <%- include('../partial/footer') %>
+</div>
+</body>
+</html>

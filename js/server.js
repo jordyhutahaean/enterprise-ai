@@ -25,10 +25,27 @@ app.get('/wablast', (req, res) => {
   res.render('wablast');
 });
 
+//login
+app.get('/login', (req, res) => {
+  res.render('login-page/login');
+});
+
+//register
+app.get('/register', (req, res) => {
+  res.render('login-page/register');
+});
+
+//forgot password
+app.get('/forgot-password', (req, res) => {
+  res.render('login-page/forgot_password');
+});
+
+
 //ai chatbot
 app.get('/ai-chatbot', (req, res) => {
   res.render('ai-chatbot');
 });
+
 // Start server
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
