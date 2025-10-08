@@ -40,6 +40,10 @@ app.get('/forgot-password', (req, res) => {
   res.render('login-page/forgot_password');
 });
 
+//Reset password
+app.get('/reset-password', (req, res) => {
+  res.render('login-page/reset_password');
+});
 
 //ai chatbot
 app.get('/ai-chatbot', (req, res) => {
