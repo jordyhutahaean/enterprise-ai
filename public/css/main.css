@@ -498,6 +498,42 @@ img{
 	background-color:#1ec84d;
 }
 
+
+/* Clean Outline Button Style */
+.btn-style-clean {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  line-height: 1;
+  color: #0a3d91; /* Deep blue text */
+  padding: 14px 28px;
+  font-weight: 600;
+  border: 2px solid #0a3d91;
+  border-radius: 7px;
+  background-color: #ffffff;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.btn-style-clean .arrow {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effects */
+.btn-style-clean:hover {
+  background-color: #0a3d91;
+  color: #ffffff;
+}
+
+.btn-style-clean:hover .arrow {
+  transform: translateX(5px);
+}
+
+
 /*Social Icon One*/
 
 .social-icon-one{
