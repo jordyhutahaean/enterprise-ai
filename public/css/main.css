@@ -5651,6 +5651,58 @@ a.badge-contrast:focus {
 	font-family: 'Poppins', sans-serif;
 }
 
+/* Footer Background */
+.main-footer {
+  background-color: #eff3ff;
+}
+
+/* Social Media Styling */
+.social-widget h4 {
+  font-size: 18px;
+  color: #373a5b;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 10px;
+}
+
+.social-links li a {
+  color: #373a5b;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links li a:hover {
+  color: #0072fd;
+  text-decoration: underline;
+}
+
+.social-links i {
+  margin-right: 8px;
+}
+
+/* Optional Contact Info */
+.contact-info p {
+  color: #373a5b;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+/* Footer bottom */
+.footer-bottom {
+  padding: 20px 0;
+  border-top: 1px solid #d9e2ff;
+  margin-top: 30px;
+}
+
+
 /*** 
 
 ====================================================================
