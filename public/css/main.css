@@ -1940,6 +1940,10 @@ img{
   top: 140px;
 }
 
+.featured-img{
+	background-image: url("../images/background/pattern-2.png");
+}
+
 /* ---------- Responsive Behavior ---------- */
 @media (max-width: 1024px) {
   .featured-section {
