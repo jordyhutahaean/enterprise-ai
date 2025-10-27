@@ -1021,6 +1021,10 @@ img{
 	margin:0px;
 }
 
+.outer-box a {
+	color: #ffffff;;
+}
+
 .main-menu .navigation > li{
 	position:relative;
 	float:left;
@@ -1311,6 +1315,10 @@ img{
 .main-header.fixed-header .main-menu .navigation > li > a{
 	color: #373a5b;
 	padding:26px 0px;
+}
+
+.main-header.fixed-header .outer-box .login{
+	color:#373a5b;
 }
 
 .main-header.fixed-header .main-menu .navigation > li > a:before{
