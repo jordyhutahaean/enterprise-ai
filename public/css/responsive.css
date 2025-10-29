@@ -1103,3 +1103,16 @@
 	.swiper-slider-area .swiper-wrapper {height: 630px;}
 	
 }
+
+@media only screen and (max-width: 767px) {
+  .main-header .nav-outer {
+    margin-top: 0 !important; /* stop it from sliding upward */
+  }
+
+  .nav-outer .mobile-nav-toggler {
+    display: block !important;
+    color: #ffffff !important; /* make sure it's visible */
+    z-index: 1001;
+    position: relative;
+  }
+}
