@@ -1786,12 +1786,14 @@ img{
 }
 
 /* --- Force hamburger visibility in sticky/fixed states --- */
-.main-header.fixed-header .mobile-nav-toggler,
-.main-header.sticky-header .mobile-nav-toggler {
-  display: block !important;
-  position: relative;
-  color: #333 !important; /* make sure it's visible */
-  z-index: 1001;
+@media only screen and (max-width: 767px) {
+	.main-header.fixed-header .mobile-nav-toggler,
+	.main-header.sticky-header .mobile-nav-toggler {
+	  display: block !important;
+	  position: relative;
+	  color: #333 !important; 
+	  z-index: 1001;
+	}
 }
 
 /*** 
