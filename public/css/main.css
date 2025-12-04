@@ -1781,6 +1781,22 @@ img{
 	display: none;
 }
 
+.mobile-head .mobile-login , .mobile-head .mobile-register {
+	position: relative;
+	display: block;
+	border-bottom:1px solid rgba(0,0,0,0.10) ;
+}
+
+.mobile-head .mobile-login span , .mobile-head .mobile-register span {
+	position: relative;
+	display: block;
+	line-height: 24px;
+	padding: 10px 20px;
+	font-size: 15px;
+	color: #404040;
+	text-transform: capitalize;
+}
+
 .sticky-header .navbar-header{
 	display:none;
 }
